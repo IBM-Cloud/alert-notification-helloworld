@@ -1,6 +1,6 @@
-# Node.js Starter Overview
+# Alert Notification Starter Overview
 
-The Node.js Starter demonstrates a simple, reusable Node.js web application based on the Express framework.
+The Alert Notification Starter demonstrates how to send a sample alert, using a simple, reusable Node.js web application based on the Express framework.
 
 ## Run the app locally
 
@@ -9,6 +9,6 @@ The Node.js Starter demonstrates a simple, reusable Node.js web application base
 3. cd into the app directory
 4. Run `npm install` to install the app's dependencies
 5. Run `npm start` to start the app
-6. Access the running app in a browser at http://localhost:6001
+6. Access the running app in a browser at [http://localhost:6001](http://localhost:6001)
 
 [Install Node.js]: https://nodejs.org/en/download/
