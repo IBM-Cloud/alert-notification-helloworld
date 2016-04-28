@@ -4,9 +4,7 @@ Alert Notification enables your IT staff to get instant notification of alerts f
 
 This starter demonstrates how to send alerts via the Alert Notification API using a simple Node.js web application.  The Alert Notification API can receive alert requests from any event source to the IBM Alert Notification service, supporting hybrid cloud deployments. For more information, see the [API documentation][api_docs_url].
 
-Before running this app, you will need an instance of the Alert Notification service, named 'alertnotification'.  For instructions, please refer to [this video][setup_video_url].
-
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy)
+Before running this app, you will need an instance of the Alert Notification service, named 'alertnotification' (Note that this is a paid service).  For instructions, please refer to [this video][setup_video_url].
 
 
 ## Running the app on Bluemix
