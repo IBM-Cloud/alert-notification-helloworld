@@ -81,5 +81,5 @@ Before running this app, you will need an instance of the Alert Notification ser
 
 [install_node_url]: https://nodejs.org/en/download/
 [cloud_foundry_url]: https://github.com/cloudfoundry/cli
-[api_docs_url]: https://dev-console.stage1.ng.bluemix.net/apidocs/156
+[api_docs_url]: https://ibmnotifybm.mybluemix.net/docs/alerts/v1/
 [setup_video_url]: https://www.youtube.com/watch?v=MgtbDXvLIqM
