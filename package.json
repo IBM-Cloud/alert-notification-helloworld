@@ -10,8 +10,11 @@
 		"cfenv": "1.0.x",
 		"superagent": "1.8.x"
 	},
-	"repository": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/aarchamb/alert-notification-helloworld.git"
+	},
 	"engines": {
 		"node": "0.12.x"
-	} 
+	}
 }
