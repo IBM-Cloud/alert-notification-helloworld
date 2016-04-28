@@ -47,17 +47,15 @@ Before running this app, you will need an instance of the Alert Notification ser
 
 1. [Install Node.js][install_node_url]
 
-2. Download and install the [Cloud Foundry CLI][cloud_foundry_url] tool
-
-3. Clone the app to your local environment from your terminal using the following command:
+2. Clone the app to your local environment from your terminal using the following command:
 
   ```
   git clone https://github.com/aarchamb/alert-notification-helloworld.git
   ```
 
-4. cd into the app directory
+3. cd into the app directory
 
-5. Edit `config.js` and fill in your Alert Notification username and password:
+4. Edit `config.js` and fill in your Alert Notification username and password:
 
   ```
   var defaults = {
@@ -70,16 +68,16 @@ Before running this app, you will need an instance of the Alert Notification ser
   ```
   This will allow the starter app to authenticate with Alert Notification and send alerts.
 
-6. Run `npm install` to install the app's dependencies
+5. Run `npm install` to install the app's dependencies
 
-7. Run `npm start` to start the app
+6. Run `npm start` to start the app
 
-8. Access the running app in a browser at the address specified by the terminal output, e.g.:
+7. Access the running app in a browser at the address specified by the terminal output, e.g.:
   ```
   Server starting on http://localhost:6001
   ```
 
-9. Press the button to send an alert!  Try modifying the code in app.js to change the content, source, and severity of the alert.
+8. Press the button to send an alert!  Try modifying the code in app.js to change the content, source, and severity of the alert.
 
 [install_node_url]: https://nodejs.org/en/download/
 [cloud_foundry_url]: https://github.com/cloudfoundry/cli
