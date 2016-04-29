@@ -16,5 +16,12 @@
 	},
 	"engines": {
 		"node": "0.12.x"
-	}
+	},
+	"contributors": [
+		{
+			"name": "Adam Archambault",
+			"email": "aarchamb@us.ibm.com"
+		}
+	],
+	"license": "Apache-2.0"
 }

@@ -14,7 +14,7 @@ Before running this app, you will need an instance of the Alert Notification ser
 2. Clone the app to your local environment from your terminal using the following command:
 
   ```
-  git clone https://github.com/aarchamb/alert-notification-helloworld.git
+  git clone https://github.com/IBM-Bluemix/alert-notification-helloworld.git
   ```
 
 3. `cd` into this newly created directory
@@ -48,7 +48,7 @@ Before running this app, you will need an instance of the Alert Notification ser
 2. Clone the app to your local environment from your terminal using the following command:
 
   ```
-  git clone https://github.com/aarchamb/alert-notification-helloworld.git
+  git clone https://github.com/IBM-Bluemix/alert-notification-helloworld.git
   ```
 
 3. cd into the app directory
