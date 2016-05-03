@@ -21,7 +21,7 @@ Before running this app, you will need an instance of the Alert Notification ser
 
 4. Open the `manifest.yml` file and change the `host` value to something unique.
 
-  The host you choose will determinate the subdomain of your application's URL:  `<host>.mybluemix.net`
+  The host you choose will determine the subdomain of your application's URL:  `<host>.mybluemix.net`
 
 5. Connect to Bluemix in the command line tool and follow the prompts to log in
 
@@ -30,16 +30,31 @@ Before running this app, you will need an instance of the Alert Notification ser
   $ cf login
   ```
 
-6. Push the app to Bluemix.
+  If asked to select a space, select the one that contains your Alert Notification instance.
+
+6. Confirm that you are in the correct space with:
+
+  ```
+  cf services
+  ```
+
+  You should see your Alert Notification instance listed.  Make a note of the instance name.
+
+7. Push the app to Bluemix.
 
   ```
   $ cf push AlertNotificationSampleApp
   ```
 
-7. Bind the Alert Notification service to the app, where `<instance_name>` is the name of your Alert Notification service instance.
+  When the command finishes, you should see the `<host>.mybluemix.net` URL in the output.  This will be the URL at which you can access the sample app.
+
+8. Bind the Alert Notification service to the app, where `<instance_name>` is the name from Step 6.
   ```
-  $ cf bind-service AlertNotificationSampleApp <instance_name>
+  $ cf bind-service AlertNotificationSampleApp "<instance_name>"
   ```
+
+9. Access the app at the URL from Step 7, and press the button to send an alert!
+
 
 ## Run the app locally
 
